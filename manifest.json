@@ -5,9 +5,14 @@
   "description": "Opens patent in Slate",
   "permissions": ["contextMenus"],
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"]
   },
   "icons": {
     "48": "icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+        "id": "amanmaurya2002@gmail.com"
+    }
   }
 }
