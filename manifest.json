@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Open in Slate",
+  "version": "1.0",
+  "description": "Opens patent in Slate",
+  "permissions": ["contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
